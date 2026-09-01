@@ -3,7 +3,7 @@
     <title>Simple Site Steps</title>
     <link href="https://simplesitesteps.com/feed.xml" rel="self" />
     <link href="https://simplesitesteps.com" />
-    <updated>2026-09-01T18:22:28+05:30</updated>
+    <updated>2026-09-01T19:28:23+05:30</updated>
     <author>
         <name>Simple Site Steps</name>
     </author>
@@ -1034,21 +1034,29 @@
         </author>
         <link href="https://simplesitesteps.com/aesthetic-link-in-bio-template/"/>
         <id>https://simplesitesteps.com/aesthetic-link-in-bio-template/</id>
+        <media:content url="https://simplesitesteps.com/media/posts/20/Aesthetic-Link-in-Bio-Cover-Photo.png" medium="image" />
             <category term="Tutorials"/>
             <category term="Google Sites Templates"/>
 
         <updated>2026-08-30T01:02:38+05:30</updated>
             <summary type="html">
                 <![CDATA[
-                    /* --- HIDE DEFAULT TITLE (JUST IN CASE) --- */ .content__header, .content__title { display: none !important; } /* OVERRIDE GLOBAL&hellip;
+                        <img src="https://simplesitesteps.com/media/posts/20/Aesthetic-Link-in-Bio-Cover-Photo.png" alt="" />
+                    /* --- HIDE DEFAULT TITLE & FEATURED IMAGE --- */ .content__header, .content__title, .content__featured-image { display: none !important; } /* OVERRIDE&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://simplesitesteps.com/media/posts/20/Aesthetic-Link-in-Bio-Cover-Photo.png" class="type:primaryImage" alt="" /></p>
                 <div><style>
-  /* --- HIDE DEFAULT TITLE (JUST IN CASE) --- */
-  .content__header, .content__title { display: none !important; }
-/* OVERRIDE GLOBAL SETTINGS: KEEP HOMEPAGE WIDE */
+  /* --- HIDE DEFAULT TITLE & FEATURED IMAGE --- */
+  .content__header, 
+  .content__title, 
+  .content__featured-image { 
+      display: none !important; 
+  }
+
+  /* OVERRIDE GLOBAL SETTINGS: KEEP PAGE WIDE */
   .post__inner, .content__inner, .post__entry, .page__entry { 
       max-width: 1200px !important; 
   }
@@ -1301,21 +1309,29 @@
         </author>
         <link href="https://simplesitesteps.com/notion-freelance-client-portal/"/>
         <id>https://simplesitesteps.com/notion-freelance-client-portal/</id>
+        <media:content url="https://simplesitesteps.com/media/posts/19/Freelance-Client-Portal-Notion-Template-Cover.png" medium="image" />
             <category term="Tutorials"/>
             <category term="Notion Templates"/>
 
         <updated>2026-08-30T01:01:59+05:30</updated>
             <summary type="html">
                 <![CDATA[
-                    /* --- HIDE DEFAULT TITLE (JUST IN CASE) --- */ .content__header, .content__title { display: none !important; } /* OVERRIDE GLOBAL&hellip;
+                        <img src="https://simplesitesteps.com/media/posts/19/Freelance-Client-Portal-Notion-Template-Cover.png" alt="" />
+                    /* --- HIDE DEFAULT TITLE & FEATURED IMAGE --- */ .content__header, .content__title, .content__featured-image { display: none !important; } /* OVERRIDE&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://simplesitesteps.com/media/posts/19/Freelance-Client-Portal-Notion-Template-Cover.png" class="type:primaryImage" alt="" /></p>
                 <div><style>
-  /* --- HIDE DEFAULT TITLE (JUST IN CASE) --- */
-  .content__header, .content__title { display: none !important; }
-/* OVERRIDE GLOBAL SETTINGS: KEEP HOMEPAGE WIDE */
+  /* --- HIDE DEFAULT TITLE & FEATURED IMAGE --- */
+  .content__header, 
+  .content__title, 
+  .content__featured-image { 
+      display: none !important; 
+  }
+
+  /* OVERRIDE GLOBAL SETTINGS: KEEP PAGE WIDE */
   .post__inner, .content__inner, .post__entry, .page__entry { 
       max-width: 1200px !important; 
   }
@@ -1536,21 +1552,29 @@
         </author>
         <link href="https://simplesitesteps.com/notion-content-planner-template-creators/"/>
         <id>https://simplesitesteps.com/notion-content-planner-template-creators/</id>
+        <media:content url="https://simplesitesteps.com/media/posts/18/Notion-Template-New-Cover-Image.png" medium="image" />
             <category term="Tutorials"/>
             <category term="Notion Templates"/>
 
         <updated>2026-08-30T01:00:47+05:30</updated>
             <summary type="html">
                 <![CDATA[
-                    /* --- HIDE DEFAULT TITLE (JUST IN CASE) --- */ .content__header, .content__title { display: none !important; } /* OVERRIDE GLOBAL&hellip;
+                        <img src="https://simplesitesteps.com/media/posts/18/Notion-Template-New-Cover-Image.png" alt="" />
+                    /* --- HIDE DEFAULT TITLE & FEATURED IMAGE --- */ .content__header, .content__title, .content__featured-image { display: none !important; } /* OVERRIDE&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://simplesitesteps.com/media/posts/18/Notion-Template-New-Cover-Image.png" class="type:primaryImage" alt="" /></p>
                 <div><style>
-  /* --- HIDE DEFAULT TITLE (JUST IN CASE) --- */
-  .content__header, .content__title { display: none !important; }
-/* OVERRIDE GLOBAL SETTINGS: KEEP HOMEPAGE WIDE */
+  /* --- HIDE DEFAULT TITLE & FEATURED IMAGE --- */
+  .content__header, 
+  .content__title, 
+  .content__featured-image { 
+      display: none !important; 
+  }
+
+  /* OVERRIDE GLOBAL SETTINGS: KEEP PAGE WIDE */
   .post__inner, .content__inner, .post__entry, .page__entry { 
       max-width: 1200px !important; 
   }
@@ -1797,21 +1821,29 @@
         </author>
         <link href="https://simplesitesteps.com/wix-studio-coaching-consulting-template/"/>
         <id>https://simplesitesteps.com/wix-studio-coaching-consulting-template/</id>
+        <media:content url="https://simplesitesteps.com/media/posts/1/The-Aetora-Coaching-and-Consulting-Website-Template-for-Wix-Studio-2.png" medium="image" />
             <category term="Wix Studio Templates"/>
             <category term="Tutorials"/>
 
         <updated>2026-08-30T00:49:33+05:30</updated>
             <summary type="html">
                 <![CDATA[
-                    /* --- HIDE DEFAULT TITLE (JUST IN CASE) --- */ .content__header, .content__title { display: none !important; } /* OVERRIDE GLOBAL&hellip;
+                        <img src="https://simplesitesteps.com/media/posts/1/The-Aetora-Coaching-and-Consulting-Website-Template-for-Wix-Studio-2.png" alt="" />
+                    /* --- HIDE DEFAULT TITLE & FEATURED IMAGE --- */ .content__header, .content__title, .content__featured-image { display: none !important; } /* OVERRIDE&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://simplesitesteps.com/media/posts/1/The-Aetora-Coaching-and-Consulting-Website-Template-for-Wix-Studio-2.png" class="type:primaryImage" alt="" /></p>
                 <div><style>
- /* --- HIDE DEFAULT TITLE (JUST IN CASE) --- */
-  .content__header, .content__title { display: none !important; }
-/* OVERRIDE GLOBAL SETTINGS: KEEP HOMEPAGE WIDE */
+/* --- HIDE DEFAULT TITLE & FEATURED IMAGE --- */
+  .content__header, 
+  .content__title, 
+  .content__featured-image { 
+      display: none !important; 
+  }
+
+  /* OVERRIDE GLOBAL SETTINGS: KEEP PAGE WIDE */
   .post__inner, .content__inner, .post__entry, .page__entry { 
       max-width: 1200px !important; 
   }
