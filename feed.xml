@@ -3,7 +3,7 @@
     <title>Simple Site Steps</title>
     <link href="https://simplesitesteps.com/feed.xml" rel="self" />
     <link href="https://simplesitesteps.com" />
-    <updated>2026-09-01T20:25:00+05:30</updated>
+    <updated>2026-09-02T01:12:01+05:30</updated>
     <author>
         <name>Simple Site Steps</name>
     </author>
@@ -1219,8 +1219,8 @@
       <p class="price-text">Price: 100% FREE</p>
       
       <div class="btn-stack">
-        <a href="PASTE_GUMROAD_LINK" target="_blank" class="btn-solid">Download via Gumroad</a>
-        <a href="PASTE_LIVE_DEMO_LINK" target="_blank" class="btn-outline">View Live Demo</a>
+        <a href="https://simplesitesteps.gumroad.com/l/aesthetic-link-in-bio" target="_blank" class="btn-solid">Download via Gumroad</a>
+        <a href="https://sites.google.com/view/aesthetic-link-in-bio-template/" target="_blank" class="btn-outline">View Live Demo</a>
       </div>
     </div>
   </div>
