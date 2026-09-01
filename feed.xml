@@ -3,7 +3,7 @@
     <title>Simple Site Steps</title>
     <link href="https://simplesitesteps.com/feed.xml" rel="self" />
     <link href="https://simplesitesteps.com" />
-    <updated>2026-08-31T23:49:09+05:30</updated>
+    <updated>2026-09-01T17:20:19+05:30</updated>
     <author>
         <name>Simple Site Steps</name>
     </author>
@@ -1189,7 +1189,7 @@
   <div class="hero-flex">
     <div class="hero-img-col">
       <!-- PASTE YOUR IMAGE URL BELOW -->
-      <img loading="lazy" src="https://via.placeholder.com/600x800?text=Upload+Aura+Image+Here" alt="Aesthetic Link in Bio Template" data-is-external-image="true">
+      <img loading="lazy" src="https://simplesitesteps.com/media/files/Free-Aesthetic-Link-in-bio-template-for-google-sites.png" alt="Aesthetic Link in Bio Template" data-is-external-image="true">
     </div>
     
     <div class="hero-text-col">
@@ -1208,7 +1208,7 @@
   <div class="banner-title">Video Tutorial</div>
   <div style="padding: 0 20px;">
     <!-- REPLACE THIS PLACEHOLDER DIV WITH YOUR YOUTUBE EMBED CODE LATER -->
-    <div class="video-placeholder">Video Embed Placeholder</div>
+    <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/duCHvbzBjvQ?si=0-94kZpKmiGWZ9op" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
   </div>
 
   <!-- FEATURES SECTION -->
