@@ -3,7 +3,7 @@
     <title>Simple Site Steps</title>
     <link href="https://simplesitesteps.com/feed.xml" rel="self" />
     <link href="https://simplesitesteps.com" />
-    <updated>2026-09-02T17:38:04+05:30</updated>
+    <updated>2026-09-02T17:42:01+05:30</updated>
     <author>
         <name>Simple Site Steps</name>
     </author>
@@ -1291,7 +1291,7 @@
   
   <div class="youtube-wrapper">
     <!-- BE SURE TO PASTE YOUR LINK INSIDE THE QUOTES BELOW -->
-    <div class="post__iframe"><iframe loading="lazy" src="https://www.youtube.com/embed/duCHvbzBjvQ?si=0-94kZpKmiGWZ9op" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <div class="post__iframe"><iframe loading="lazy" src="https://www.youtube.com/embed/duCHvbzBjvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
   </div>
 </div>
 
