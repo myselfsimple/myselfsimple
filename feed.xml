@@ -3,7 +3,7 @@
     <title>Simple Site Steps</title>
     <link href="https://simplesitesteps.com/feed.xml" rel="self" />
     <link href="https://simplesitesteps.com" />
-    <updated>2026-09-02T16:18:37+05:30</updated>
+    <updated>2026-09-02T16:21:12+05:30</updated>
     <author>
         <name>Simple Site Steps</name>
     </author>
@@ -1186,10 +1186,11 @@
   .youtube-wrapper {
     position: relative;
     width: 100%;
-    aspect-ratio: 16 / 9; /* Forces a perfect YouTube rectangle */
-    border-radius: 16px; /* Beautiful rounded corners! */
-    overflow: hidden; /* Clips the video to fit the rounded corners */
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Adds a soft premium shadow */
+    padding-bottom: 56.25%; /* The magic math for a perfect 16:9 video! */
+    height: 0;
+    border-radius: 16px; 
+    overflow: hidden; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
     background-color: #000000;
   }
   .youtube-wrapper iframe {
