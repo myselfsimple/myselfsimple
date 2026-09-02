@@ -3,7 +3,7 @@
     <title>Simple Site Steps</title>
     <link href="https://simplesitesteps.com/feed.xml" rel="self" />
     <link href="https://simplesitesteps.com" />
-    <updated>2026-09-02T16:53:22+05:30</updated>
+    <updated>2026-09-02T16:54:54+05:30</updated>
     <author>
         <name>Simple Site Steps</name>
     </author>
@@ -1236,6 +1236,7 @@
     .hero-flex { flex-direction: column; text-align: center; gap: 30px; }
     .hero-img-col { order: -1; } /* Image on top */
     .hero-text-col h2 { font-size: 1.8em; }
+    .video-placeholder { height: 250px; }
     .banner-title { font-size: 1.3em; padding: 20px; }
   }
 </style>
