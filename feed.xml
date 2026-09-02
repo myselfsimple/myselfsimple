@@ -3,7 +3,7 @@
     <title>Simple Site Steps</title>
     <link href="https://simplesitesteps.com/feed.xml" rel="self" />
     <link href="https://simplesitesteps.com" />
-    <updated>2026-09-02T01:14:35+05:30</updated>
+    <updated>2026-09-02T10:52:22+05:30</updated>
     <author>
         <name>Simple Site Steps</name>
     </author>
@@ -16,16 +16,19 @@
         </author>
         <link href="https://simplesitesteps.com/why-life-coaches-need-premium-website/"/>
         <id>https://simplesitesteps.com/why-life-coaches-need-premium-website/</id>
+        <media:content url="https://simplesitesteps.com/media/posts/27/Why-Life-Coaches-Need-a-Premium-Website.jpg" medium="image" />
             <category term="Blog"/>
 
         <updated>2026-08-31T23:47:27+05:30</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://simplesitesteps.com/media/posts/27/Why-Life-Coaches-Need-a-Premium-Website.jpg" alt="Why Life Coaches Need a Premium Website in 2026 (To Book Better Clients)" />
                     Why Life Coaches Need a Premium Website in 2026 Disclosure: As a web designer, I recommend tools and platforms I&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://simplesitesteps.com/media/posts/27/Why-Life-Coaches-Need-a-Premium-Website.jpg" class="type:primaryImage" alt="Why Life Coaches Need a Premium Website in 2026 (To Book Better Clients)" /></p>
                 
     <h2 id="why-life-coaches-need-a-premium-website-in-2026">
       Why Life Coaches Need a Premium Website in 2026
@@ -207,13 +210,13 @@
         <updated>2026-08-30T01:03:49+05:30</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://simplesitesteps.com/media/posts/22/start-a-WordPress-blog-for-YouTube-creators.jpg" alt="" />
+                        <img src="https://simplesitesteps.com/media/posts/22/start-a-WordPress-blog-for-YouTube-creators.jpg" alt="How to Start a WordPress Blog for YouTube Creators in 15 Minutes (No Tech Skills Needed)" />
                     Introduction Today we are going to show you how to start a WordPress blog for YouTube creators. Let me guess:&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://simplesitesteps.com/media/posts/22/start-a-WordPress-blog-for-YouTube-creators.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://simplesitesteps.com/media/posts/22/start-a-WordPress-blog-for-YouTube-creators.jpg" class="type:primaryImage" alt="How to Start a WordPress Blog for YouTube Creators in 15 Minutes (No Tech Skills Needed)" /></p>
                 
     <h2 id="introduction">
       Introduction
@@ -619,13 +622,13 @@
         <updated>2026-08-30T01:03:14+05:30</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://simplesitesteps.com/media/posts/21/how-to-write-an-affiliate-blog-post-using-AI.jpg" alt="" />
+                        <img src="https://simplesitesteps.com/media/posts/21/how-to-write-an-affiliate-blog-post-using-AI.jpg" alt="How to write an affiliate blog post Using AI (10 Exact Best Prompts)" />
                     Introduction Let me be completely honest with you. When I first started out my blog, figuring out how to write&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://simplesitesteps.com/media/posts/21/how-to-write-an-affiliate-blog-post-using-AI.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://simplesitesteps.com/media/posts/21/how-to-write-an-affiliate-blog-post-using-AI.jpg" class="type:primaryImage" alt="How to write an affiliate blog post Using AI (10 Exact Best Prompts)" /></p>
                 
     <h2 id="introduction">
       Introduction
@@ -1037,17 +1040,18 @@
         <media:content url="https://simplesitesteps.com/media/posts/20/Aesthetic-Link-in-Bio-Cover-Photo.png" medium="image" />
             <category term="Tutorials"/>
             <category term="Google Sites Templates"/>
+            <category term="Blog"/>
 
         <updated>2026-08-30T01:02:38+05:30</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://simplesitesteps.com/media/posts/20/Aesthetic-Link-in-Bio-Cover-Photo.png" alt="" />
+                        <img src="https://simplesitesteps.com/media/posts/20/Aesthetic-Link-in-Bio-Cover-Photo.png" alt="Free Aesthetic Link-in-Bio Template for Google Sites" />
                     /* --- HIDE DEFAULT TITLE & FEATURED IMAGE --- */ .content__header, .content__title, .content__featured-image { display: none !important; } /* OVERRIDE&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://simplesitesteps.com/media/posts/20/Aesthetic-Link-in-Bio-Cover-Photo.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://simplesitesteps.com/media/posts/20/Aesthetic-Link-in-Bio-Cover-Photo.png" class="type:primaryImage" alt="Free Aesthetic Link-in-Bio Template for Google Sites" /></p>
                 <div><style>
   /* --- HIDE DEFAULT TITLE & FEATURED IMAGE --- */
   .content__header, 
@@ -1325,17 +1329,18 @@
         <media:content url="https://simplesitesteps.com/media/posts/19/Freelance-Client-Portal-Notion-Template-Cover.png" medium="image" />
             <category term="Tutorials"/>
             <category term="Notion Templates"/>
+            <category term="Blog"/>
 
         <updated>2026-08-30T01:01:59+05:30</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://simplesitesteps.com/media/posts/19/Freelance-Client-Portal-Notion-Template-Cover.png" alt="" />
+                        <img src="https://simplesitesteps.com/media/posts/19/Freelance-Client-Portal-Notion-Template-Cover.png" alt="Premium Freelance Client Portal for Notion" />
                     /* --- HIDE DEFAULT TITLE & FEATURED IMAGE --- */ .content__header, .content__title, .content__featured-image { display: none !important; } /* OVERRIDE&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://simplesitesteps.com/media/posts/19/Freelance-Client-Portal-Notion-Template-Cover.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://simplesitesteps.com/media/posts/19/Freelance-Client-Portal-Notion-Template-Cover.png" class="type:primaryImage" alt="Premium Freelance Client Portal for Notion" /></p>
                 <div><style>
   /* --- HIDE DEFAULT TITLE & FEATURED IMAGE --- */
   .content__header, 
@@ -1568,17 +1573,18 @@
         <media:content url="https://simplesitesteps.com/media/posts/18/Notion-Template-New-Cover-Image.png" medium="image" />
             <category term="Tutorials"/>
             <category term="Notion Templates"/>
+            <category term="Blog"/>
 
         <updated>2026-08-30T01:00:47+05:30</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://simplesitesteps.com/media/posts/18/Notion-Template-New-Cover-Image.png" alt="" />
+                        <img src="https://simplesitesteps.com/media/posts/18/Notion-Template-New-Cover-Image.png" alt="Notion Content Planner Template for Creators" />
                     /* --- HIDE DEFAULT TITLE & FEATURED IMAGE --- */ .content__header, .content__title, .content__featured-image { display: none !important; } /* OVERRIDE&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://simplesitesteps.com/media/posts/18/Notion-Template-New-Cover-Image.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://simplesitesteps.com/media/posts/18/Notion-Template-New-Cover-Image.png" class="type:primaryImage" alt="Notion Content Planner Template for Creators" /></p>
                 <div><style>
   /* --- HIDE DEFAULT TITLE & FEATURED IMAGE --- */
   .content__header, 
@@ -1837,17 +1843,18 @@
         <media:content url="https://simplesitesteps.com/media/posts/1/The-Aetora-Coaching-and-Consulting-Website-Template-for-Wix-Studio-2.png" medium="image" />
             <category term="Wix Studio Templates"/>
             <category term="Tutorials"/>
+            <category term="Blog"/>
 
         <updated>2026-08-30T00:49:33+05:30</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://simplesitesteps.com/media/posts/1/The-Aetora-Coaching-and-Consulting-Website-Template-for-Wix-Studio-2.png" alt="" />
+                        <img src="https://simplesitesteps.com/media/posts/1/The-Aetora-Coaching-and-Consulting-Website-Template-for-Wix-Studio-2.png" alt="Best Coaching &amp; Consulting Website Template for Wix Studio - The Aetora" />
                     /* --- HIDE DEFAULT TITLE & FEATURED IMAGE --- */ .content__header, .content__title, .content__featured-image { display: none !important; } /* OVERRIDE&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://simplesitesteps.com/media/posts/1/The-Aetora-Coaching-and-Consulting-Website-Template-for-Wix-Studio-2.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://simplesitesteps.com/media/posts/1/The-Aetora-Coaching-and-Consulting-Website-Template-for-Wix-Studio-2.png" class="type:primaryImage" alt="Best Coaching &amp; Consulting Website Template for Wix Studio - The Aetora" /></p>
                 <div><style>
 /* --- HIDE DEFAULT TITLE & FEATURED IMAGE --- */
   .content__header, 
