@@ -3,7 +3,7 @@
     <title>Simple Site Steps</title>
     <link href="https://simplesitesteps.com/feed.xml" rel="self" />
     <link href="https://simplesitesteps.com" />
-    <updated>2026-09-02T16:54:54+05:30</updated>
+    <updated>2026-09-02T17:00:30+05:30</updated>
     <author>
         <name>Simple Site Steps</name>
     </author>
@@ -1182,8 +1182,8 @@
   /* --- VIDEO PLACEHOLDER --- */
   .video-placeholder {
     width: 100%;
-    max-width: 800px;
-    height: 400px;
+    max-width: 560px;
+    height: 315px;
     margin: 0 auto;
     background-color: #FFFFFF;
     border: 2px dashed #CBD5E1;
@@ -1192,7 +1192,7 @@
     align-items: center;
     color: #94A3B8;
     font-weight: bold;
-    border-radius: 8px;
+    border-radius: 50px;
   }
 
 
