@@ -3,7 +3,7 @@
     <title>Simple Site Steps</title>
     <link href="https://simplesitesteps.com/feed.xml" rel="self" />
     <link href="https://simplesitesteps.com" />
-    <updated>2026-09-02T16:09:08+05:30</updated>
+    <updated>2026-09-02T16:12:59+05:30</updated>
     <author>
         <name>Simple Site Steps</name>
     </author>
@@ -1436,10 +1436,27 @@
 
   .section-title { text-align: center; font-size: 2em; font-weight: 800; color: var(--dark-slate); margin-bottom: 50px; letter-spacing: -0.5px; }
 
-  /* --- VIDEO PLACEHOLDER --- */
-  .video-container { max-width: 800px; margin: 0 auto; padding-bottom: 60px; text-align: center; }
+  /* --- YOUTUBE VIDEO SECTION --- */
+  .video-container { max-width: 750px; margin: 0 auto 60px auto; text-align: center; padding: 0 20px; }
   .video-title { font-size: 1.8em; font-weight: 800; color: var(--dark-slate); margin-bottom: 30px; }
-  .video-placeholder { width: 100%; height: 400px; background-color: #F1F5F9; border: 2px dashed #94A3B8; border-radius: 12px; display: flex; justify-content: center; align-items: center; color: #64748B; font-weight: bold; font-size: 1.2em; }
+  
+  .youtube-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Forces a perfect YouTube rectangle */
+    border-radius: 16px; /* Beautiful rounded corners! */
+    overflow: hidden; /* Clips the video to fit the rounded corners */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Adds a soft premium shadow */
+    background-color: #000000;
+  }
+  .youtube-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
 
   /* --- GRIDS (4-COLUMN & 3-COLUMN) --- */
   .four-col-grid { display: flex; flex-wrap: wrap; gap: 30px; max-width: 1200px; margin: 0 auto; justify-content: center; text-align: center; }
@@ -1503,11 +1520,15 @@
     </div>
   </div>
 
-  <!-- VIDEO PLACEHOLDER SECTION -->
+  <!-- VIDEO SECTION -->
   <div class="video-container">
     <h2 class="video-title">Video Tutorial</h2>
-    <!-- REPLACE THIS DIV WITH YOUR YOUTUBE IFRAME EMBED LATER -->
-    <div class="video-placeholder">▶ Video Embed Placeholder</div>
+    
+    <div class="youtube-wrapper">
+      <!-- PASTE YOUR YOUTUBE IFRAME CODE RIGHT HERE -->
+      <div class="post__iframe"><iframe loading="lazy" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+    </div>
+    
   </div>
 
   <!-- FEATURES SECTION (4-COLUMN GREY) -->
@@ -1709,20 +1730,26 @@
     margin: 40px 0;
   }
 
-  /* --- VIDEO PLACEHOLDER --- */
-  .video-placeholder {
+  /* --- YOUTUBE VIDEO SECTION --- */
+  .video-container { max-width: 750px; margin: 0 auto 60px auto; text-align: center; padding: 0 20px; }
+  .video-title { font-size: 1.8em; font-weight: 800; color: var(--dark-slate); margin-bottom: 30px; }
+  
+  .youtube-wrapper {
+    position: relative;
     width: 100%;
-    max-width: 800px;
-    height: 400px;
-    margin: 0 auto;
-    background-color: #FFFFFF;
-    border: 2px dashed #CBD5E1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #94A3B8;
-    font-weight: bold;
-    border-radius: 8px;
+    aspect-ratio: 16 / 9; /* Forces a perfect YouTube rectangle */
+    border-radius: 16px; /* Beautiful rounded corners! */
+    overflow: hidden; /* Clips the video to fit the rounded corners */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Adds a soft premium shadow */
+    background-color: #000000;
+  }
+  .youtube-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
   }
 
   /* --- 3-COLUMN GRIDS --- */
@@ -1795,10 +1822,14 @@
   </div>
 
   <!-- VIDEO SECTION -->
-  <div class="banner-title">Video Tutorial</div>
-  <div style="padding: 0 20px;">
-    <!-- REPLACE THIS PLACEHOLDER DIV WITH YOUR YOUTUBE EMBED CODE LATER -->
-    <div class="video-placeholder">Video Embed Placeholder</div>
+  <div class="video-container">
+    <h2 class="video-title">Video Tutorial</h2>
+    
+    <div class="youtube-wrapper">
+      <!-- PASTE YOUR YOUTUBE IFRAME CODE RIGHT HERE -->
+      <div class="post__iframe"><iframe loading="lazy" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+    </div>
+    
   </div>
 
   <!-- FEATURES SECTION -->
@@ -1953,10 +1984,27 @@
 
   .section-title { text-align: center; font-size: 2em; font-weight: 800; color: var(--dark-slate); margin-bottom: 50px; letter-spacing: -0.5px; }
 
-  /* --- VIDEO PLACEHOLDER --- */
-  .video-container { max-width: 800px; margin: 0 auto; padding-bottom: 60px; }
-  .video-title { text-align: center; font-size: 1.8em; font-weight: 800; color: var(--dark-slate); margin-bottom: 30px; }
-  .video-placeholder { width: 100%; height: 400px; background-color: #F1F5F9; border: 2px dashed #94A3B8; border-radius: 12px; display: flex; justify-content: center; align-items: center; color: #64748B; font-weight: bold; font-size: 1.2em; }
+  /* --- YOUTUBE VIDEO SECTION --- */
+  .video-container { max-width: 750px; margin: 0 auto 60px auto; text-align: center; padding: 0 20px; }
+  .video-title { font-size: 1.8em; font-weight: 800; color: var(--dark-slate); margin-bottom: 30px; }
+  
+  .youtube-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Forces a perfect YouTube rectangle */
+    border-radius: 16px; /* Beautiful rounded corners! */
+    overflow: hidden; /* Clips the video to fit the rounded corners */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Adds a soft premium shadow */
+    background-color: #000000;
+  }
+  .youtube-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
 
   /* --- GRIDS (4-COLUMN & 3-COLUMN) --- */
   .four-col-grid { display: flex; flex-wrap: wrap; gap: 30px; max-width: 1200px; margin: 0 auto; justify-content: center; text-align: center; }
@@ -2020,11 +2068,15 @@
     </div>
   </div>
 
-  <!-- VIDEO PLACEHOLDER SECTION -->
+  <!-- VIDEO SECTION -->
   <div class="video-container">
     <h2 class="video-title">Video Tutorial</h2>
-    <!-- REPLACE THIS DIV WITH YOUR YOUTUBE IFRAME EMBED LATER -->
-    <div class="video-placeholder">▶ Video Embed Placeholder</div>
+    
+    <div class="youtube-wrapper">
+      <!-- PASTE YOUR YOUTUBE IFRAME CODE RIGHT HERE -->
+      <div class="post__iframe"><iframe loading="lazy" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+    </div>
+    
   </div>
 
   <!-- FEATURES SECTION (4-COLUMN GREY) -->
