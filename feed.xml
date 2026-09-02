@@ -3,7 +3,7 @@
     <title>Simple Site Steps</title>
     <link href="https://simplesitesteps.com/feed.xml" rel="self" />
     <link href="https://simplesitesteps.com" />
-    <updated>2026-09-02T15:59:21+05:30</updated>
+    <updated>2026-09-02T16:09:08+05:30</updated>
     <author>
         <name>Simple Site Steps</name>
     </author>
@@ -1179,20 +1179,26 @@
 .bg-white { background-color: #FFFFFF; border: none; padding: 20px; }
 .bg-green { background-color: var(--bg-green); text-align: center; border-color: #B5D2BF; }
 
-  /* --- VIDEO PLACEHOLDER --- */
-  .video-placeholder {
+  /* --- YOUTUBE VIDEO SECTION --- */
+  .video-container { max-width: 750px; margin: 0 auto 60px auto; text-align: center; padding: 0 20px; }
+  .video-title { font-size: 1.8em; font-weight: 800; color: var(--dark-slate); margin-bottom: 30px; }
+  
+  .youtube-wrapper {
+    position: relative;
     width: 100%;
-    max-width: 800px;
-    height: 400px;
-    margin: 0 auto;
-    background-color: #FFFFFF;
-    border: 2px dashed #CBD5E1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #94A3B8;
-    font-weight: bold;
-    border-radius: 8px;
+    aspect-ratio: 16 / 9; /* Forces a perfect YouTube rectangle */
+    border-radius: 16px; /* Beautiful rounded corners! */
+    overflow: hidden; /* Clips the video to fit the rounded corners */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Adds a soft premium shadow */
+    background-color: #000000;
+  }
+  .youtube-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
   }
 
   /* --- 3-COLUMN GRIDS --- */
@@ -1265,10 +1271,14 @@
   </div>
 
   <!-- VIDEO SECTION -->
-  <div class="banner-title">Video Tutorial</div>
-  <div style="padding: 0 20px;">
-    <!-- REPLACE THIS PLACEHOLDER DIV WITH YOUR YOUTUBE EMBED CODE LATER -->
-    <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/duCHvbzBjvQ?si=0-94kZpKmiGWZ9op" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+  <div class="video-container">
+    <h2 class="video-title">Video Tutorial</h2>
+    
+    <div class="youtube-wrapper">
+      <!-- PASTE YOUR YOUTUBE IFRAME CODE RIGHT HERE -->
+      <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/duCHvbzBjvQ?si=0-94kZpKmiGWZ9op" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    </div>
+    
   </div>
 
   <!-- FEATURES SECTION -->
