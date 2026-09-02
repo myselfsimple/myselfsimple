@@ -3,7 +3,7 @@
     <title>Simple Site Steps</title>
     <link href="https://simplesitesteps.com/feed.xml" rel="self" />
     <link href="https://simplesitesteps.com" />
-    <updated>2026-09-02T17:06:16+05:30</updated>
+    <updated>2026-09-02T17:09:36+05:30</updated>
     <author>
         <name>Simple Site Steps</name>
     </author>
@@ -1273,10 +1273,14 @@
   </div>
 
   <!-- VIDEO SECTION -->
-  <div class="banner-title">Video Tutorial</div>
-  <div style="padding: 0 20px;">
-    <!-- REPLACE THIS PLACEHOLDER DIV WITH YOUR YOUTUBE EMBED CODE LATER -->
-    <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/duCHvbzBjvQ?si=0-94kZpKmiGWZ9op" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+  <div class="video-container">
+    <h2 class="video-title">Video Tutorial</h2>
+    
+    <div class="youtube-wrapper">
+      <!-- PASTE YOUR YOUTUBE IFRAME CODE RIGHT HERE -->
+      <div class="post__iframe"><iframe loading="lazy" src="https://www.youtube.com/embed/duCHvbzBjvQ?si=0-94kZpKmiGWZ9op" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+    </div>
+    
   </div>
 
   <!-- FEATURES SECTION -->
