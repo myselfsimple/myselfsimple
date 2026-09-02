@@ -3,7 +3,7 @@
     <title>Simple Site Steps</title>
     <link href="https://simplesitesteps.com/feed.xml" rel="self" />
     <link href="https://simplesitesteps.com" />
-    <updated>2026-09-02T17:42:01+05:30</updated>
+    <updated>2026-09-02T18:10:06+05:30</updated>
     <author>
         <name>Simple Site Steps</name>
     </author>
@@ -1179,39 +1179,10 @@
 .bg-white { background-color: #FFFFFF; border: none; padding: 20px; }
 .bg-green { background-color: var(--bg-green); text-align: center; border-color: #B5D2BF; }
 
-  /* --- BULLETPROOF YOUTUBE VIDEO FIX --- */
-  .video-container { 
-    max-width: 750px; 
-    margin: 0 auto 60px auto; 
-    text-align: center; 
-    padding: 0 20px; 
-  }
-  .video-title { 
-    font-size: 1.8em; 
-    font-weight: 800; 
-    color: var(--dark-slate); 
-    margin-bottom: 30px; 
-  }
-  
-  .youtube-wrapper {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* The magic math for a perfect 16:9 ratio! */
-    height: 0;
-    border-radius: 16px; 
-    overflow: hidden; 
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
-    background-color: #000000;
-  }
-  
-  .youtube-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
+  /* --- VIDEO PLACEHOLDER --- */
+  .video-container { max-width: 800px; margin: 0 auto; padding-bottom: 60px; }
+  .video-title { text-align: center; font-size: 1.8em; font-weight: 800; color: var(--dark-slate); margin-bottom: 30px; }
+  .video-placeholder { width: 100%; height: 400px; background-color: #F1F5F9; border: 2px dashed #94A3B8; border-radius: 12px; display: flex; justify-content: center; align-items: center; color: #64748B; font-weight: bold; font-size: 1.2em; }
 
 
   /* --- 3-COLUMN GRIDS --- */
@@ -1255,6 +1226,7 @@
     .hero-img-col { order: -1; } /* Image on top */
     .hero-text-col h2 { font-size: 1.8em; }
     .banner-title { font-size: 1.3em; padding: 20px; }
+    .video-placeholder { height: 250px; }
     
     /* Optional: Shrinks the gap slightly on mobile so the video fits better */
     .video-container { margin-bottom: 40px; padding: 0 15px; } 
@@ -1285,15 +1257,12 @@
     </div>
   </div>
 
-  <!-- VIDEO SECTION -->
-<div class="video-container">
-  <h2 class="video-title">Video Tutorial</h2>
-  
-  <div class="youtube-wrapper">
-    <!-- BE SURE TO PASTE YOUR LINK INSIDE THE QUOTES BELOW -->
-    <div class="post__iframe"><iframe loading="lazy" src="https://www.youtube.com/embed/duCHvbzBjvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+  <!-- VIDEO PLACEHOLDER SECTION -->
+  <div class="video-container">
+    <h2 class="video-title">Video Tutorial</h2>
+    <!-- REPLACE THIS DIV WITH YOUR YOUTUBE IFRAME EMBED LATER -->
+    <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/duCHvbzBjvQ?si=LIJU7LY8EgH_ZoPO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
   </div>
-</div>
 
   <!-- FEATURES SECTION -->
   <div class="banner-title">Why Choose this Template? (Features)</div>
