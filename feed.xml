@@ -3,7 +3,7 @@
     <title>Simple Site Steps</title>
     <link href="https://simplesitesteps.com/feed.xml" rel="self" />
     <link href="https://simplesitesteps.com" />
-    <updated>2026-09-02T14:31:00+05:30</updated>
+    <updated>2026-09-02T14:48:18+05:30</updated>
     <author>
         <name>Simple Site Steps</name>
     </author>
@@ -1403,10 +1403,10 @@
 
   /* --- HERO SECTION (SPLIT) --- */
   .hero-flex { display: flex; flex-wrap: wrap; gap: 50px; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 20px 60px 20px; }
-  .hero-img-col { flex: 1 1 450px; text-align: center; }
-  .hero-img-col img { width: 100%; max-width: 600px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); object-fit: cover; }
+  .hero-img-col { flex: 1 1 400px; text-align: center; }
+  .hero-img-col img { width: 100%; max-width: 450px; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); object-fit: cover; }
   
-  .hero-text-col { flex: 1 1 400px; text-align: left; }
+  .hero-text-col { flex: 1 1 400px; text-align: center; }
   .hero-text-col h2 { font-size: 1.8em; color: var(--dark-slate); font-weight: 800; margin-bottom: 20px; line-height: 1.3; }
   .hero-text-col p { font-size: 1.05em; color: var(--text-grey); margin-bottom: 25px; line-height: 1.6; }
   .price-text { font-size: 1.15em; font-weight: 800; color: #000000; margin-bottom: 25px; }
@@ -1674,7 +1674,7 @@
   .hero-img-col { flex: 1 1 400px; text-align: center; }
   .hero-img-col img { width: 100%; max-width: 450px; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
   
-  .hero-text-col { flex: 1 1 400px; }
+  .hero-text-col { flex: 1 1 400px; text-align: center; }
   .hero-text-col h2 { font-size: 2.2em; color: var(--dark-slate); font-weight: 800; margin-bottom: 20px; line-height: 1.2; }
   .hero-text-col p { font-size: 1.05em; margin-bottom: 25px; color: #4A4A4A; }
   .price-text { font-size: 1.1em; font-weight: bold; color: #000; margin-bottom: 20px; }
@@ -1769,7 +1769,7 @@
   <div class="hero-flex">
     <div class="hero-img-col">
       <!-- PASTE YOUR IMAGE URL BELOW -->
-      <img loading="lazy" src="https://simplesitesteps.com/media/files/Notion-Template-New-Cover-Image.png" alt="Aesthetic Link in Bio Template" data-is-external-image="true">
+      <img loading="lazy" src="https://simplesitesteps.com/media/files/Free-Notion-Template-for-digital-content-creator.png" alt="Aesthetic Link in Bio Template" data-is-external-image="true">
     </div>
     
     <div class="hero-text-col">
@@ -1922,13 +1922,13 @@
   .hero-img-col { flex: 1 1 400px; text-align: center; }
   .hero-img-col img { width: 100%; max-width: 450px; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); object-fit: cover; }
   
-  .hero-text-col { flex: 1 1 400px; text-align: left; }
+  .hero-text-col { flex: 1 1 400px; text-align: center; }
   .hero-text-col h2 { font-size: 1.8em; color: var(--dark-slate); font-weight: 800; margin-bottom: 20px; line-height: 1.3; }
   .hero-text-col p { font-size: 1.05em; color: var(--text-grey); margin-bottom: 25px; line-height: 1.6; }
   .price-text { font-size: 1.15em; font-weight: 800; color: #000000; margin-bottom: 25px; }
 
   /* --- BUTTONS (PILL SHAPE & PADDING FIX) --- */
-  .btn-stack { display: flex; flex-direction: column; gap: 15px; }
+  .btn-stack { display: flex; flex-direction: column; gap: 15px; align-items: center; }
   .btn-solid { background-color: var(--dark-slate); color: #FFFFFF !important; padding: 14px 30px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1em; text-align: center; width: 100%; max-width: 350px; border: 2px solid var(--dark-slate); transition: 0.3s ease; box-sizing: border-box; }
   .btn-solid:hover { background-color: var(--accent-green); border-color: var(--accent-green); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(31, 138, 75, 0.3); }
   
