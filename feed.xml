@@ -3,7 +3,7 @@
     <title>Simple Site Steps</title>
     <link href="https://simplesitesteps.com/feed.xml" rel="self" />
     <link href="https://simplesitesteps.com" />
-    <updated>2026-09-02T13:13:11+05:30</updated>
+    <updated>2026-09-02T13:52:39+05:30</updated>
     <author>
         <name>Simple Site Steps</name>
     </author>
@@ -963,6 +963,11 @@
     <h2 id="the-golden-rule-adding-your-e-e-a-t-the-human-touch">
       The Golden Rule: Adding Your “E-E-A-T” (The Human Touch)
     </h2>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://simplesitesteps.com/media/posts/21/E-E-A-T-Experience-Expertise-Authoritativeness-and-Trustworthiness.jpg" height="768" width="1408" alt="E-E-A-T-Experience-Expertise-Authoritativeness-and-Trustworthiness"  sizes="(max-width: 48em) 100vw, 100vw" srcset="https://simplesitesteps.com/media/posts/21/responsive/E-E-A-T-Experience-Expertise-Authoritativeness-and-Trustworthiness-xs.jpg 300w ,https://simplesitesteps.com/media/posts/21/responsive/E-E-A-T-Experience-Expertise-Authoritativeness-and-Trustworthiness-sm.jpg 480w ,https://simplesitesteps.com/media/posts/21/responsive/E-E-A-T-Experience-Expertise-Authoritativeness-and-Trustworthiness-md.jpg 768w">
+      <figcaption>E-E-A-T-Experience-Expertise-Authoritativeness-and-Trustworthiness</figcaption>
+    </figure>
 
   <p>
     Do not just paste these AI outputs into WordPress and hit publish.
@@ -1990,7 +1995,7 @@
   <div class="hero-flex">
     <div class="hero-img-col">
       <!-- PASTE YOUR CANVA MOCKUP URL BELOW -->
-      <img loading="lazy" src="https://simplesitesteps.com/media/files/The-Aetora-Coaching-and-Consulting-Website-Template-for-Wix-Studio.png" alt="The Aetora Wix Studio Template" data-is-external-image="true">
+      <img loading="lazy" src="https://simplesitesteps.com/media/files/the-aetora-template-coaching-website.png" alt="The Aetora Wix Studio Template" data-is-external-image="true">
     </div>
     
     <div class="hero-text-col">
