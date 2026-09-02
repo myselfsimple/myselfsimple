@@ -3,7 +3,7 @@
     <title>Simple Site Steps</title>
     <link href="https://simplesitesteps.com/feed.xml" rel="self" />
     <link href="https://simplesitesteps.com" />
-    <updated>2026-09-02T17:24:14+05:30</updated>
+    <updated>2026-09-02T17:38:04+05:30</updated>
     <author>
         <name>Simple Site Steps</name>
     </author>
@@ -1180,13 +1180,23 @@
 .bg-green { background-color: var(--bg-green); text-align: center; border-color: #B5D2BF; }
 
   /* --- BULLETPROOF YOUTUBE VIDEO FIX --- */
-  .video-container { max-width: 750px; margin: 0 auto 60px auto; text-align: center; padding: 0 20px; }
-  .video-title { font-size: 1.8em; font-weight: 800; color: var(--dark-slate); margin-bottom: 30px; }
+  .video-container { 
+    max-width: 750px; 
+    margin: 0 auto 60px auto; 
+    text-align: center; 
+    padding: 0 20px; 
+  }
+  .video-title { 
+    font-size: 1.8em; 
+    font-weight: 800; 
+    color: var(--dark-slate); 
+    margin-bottom: 30px; 
+  }
   
   .youtube-wrapper {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* This is the magic math for 16:9 */
+    padding-bottom: 56.25%; /* The magic math for a perfect 16:9 ratio! */
     height: 0;
     border-radius: 16px; 
     overflow: hidden; 
@@ -1245,6 +1255,9 @@
     .hero-img-col { order: -1; } /* Image on top */
     .hero-text-col h2 { font-size: 1.8em; }
     .banner-title { font-size: 1.3em; padding: 20px; }
+    
+    /* Optional: Shrinks the gap slightly on mobile so the video fits better */
+    .video-container { margin-bottom: 40px; padding: 0 15px; } 
   }
 </style>
 
@@ -1273,15 +1286,14 @@
   </div>
 
   <!-- VIDEO SECTION -->
-  <div class="video-container">
-    <h2 class="video-title">Video Tutorial</h2>
-    
-    <div class="youtube-wrapper">
-      <!-- PASTE YOUR YOUTUBE IFRAME CODE RIGHT HERE -->
-      <div class="post__iframe"><iframe loading="lazy" src="https://www.youtube.com/embed/duCHvbzBjvQ?si=0-94kZpKmiGWZ9op" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-    </div>
-    
+<div class="video-container">
+  <h2 class="video-title">Video Tutorial</h2>
+  
+  <div class="youtube-wrapper">
+    <!-- BE SURE TO PASTE YOUR LINK INSIDE THE QUOTES BELOW -->
+    <div class="post__iframe"><iframe loading="lazy" src="https://www.youtube.com/embed/duCHvbzBjvQ?si=0-94kZpKmiGWZ9op" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
   </div>
+</div>
 
   <!-- FEATURES SECTION -->
   <div class="banner-title">Why Choose this Template? (Features)</div>
