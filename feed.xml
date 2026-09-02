@@ -3,7 +3,7 @@
     <title>Simple Site Steps</title>
     <link href="https://simplesitesteps.com/feed.xml" rel="self" />
     <link href="https://simplesitesteps.com" />
-    <updated>2026-09-02T14:22:59+05:30</updated>
+    <updated>2026-09-02T14:24:43+05:30</updated>
     <author>
         <name>Simple Site Steps</name>
     </author>
@@ -1976,11 +1976,12 @@
 
   /* --- MOBILE RESPONSIVE FIXES --- */
   @media (max-width: 768px) {
-    .main-heading { font-size: 2.2em; margin-top: 30px; }
-    .hero-flex { flex-direction: column; text-align: center; gap: 30px; }
-    .hero-img-col { order: -1; } /* Image on top */
-    .hero-text-col h2 { font-size: 1.8em; }
-    .banner-title { font-size: 1.3em; padding: 20px; }
+    .main-heading { font-size: 2.2em; margin-top: 2px; }
+    .hero-flex { flex-direction: column; text-align: center; gap: 30px; padding-bottom: 30px; }
+    .hero-img-col { order: -1; } /* Puts the image on top for mobile */
+    .hero-text-col { text-align: center; }
+    .btn-stack { align-items: center; } /* Centers buttons on mobile */
+    .section-title { font-size: 1.8em; }
     .video-placeholder { height: 250px; }
   }
 </style>
